@@ -1,0 +1,4 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/CMSIS/Include -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I..\RAKSDK\examples_os\tcp_udp\include -I..\RAKSDK\rw_lib -I..\RAKSDK\common\include -I..\RAKSDK\bsp --C99 
+-I D:\MDK4.70A\ARM\RV31\INC 
+-I D:\MDK4.70A\ARM\CMSIS\Include 
+-DUSE_HAL_DRIVER -DSTM32F407xx -o "RAK439_CubeMX Configuration\stm32f4xx_hal.o" --omf_browse "RAK439_CubeMX Configuration\stm32f4xx_hal.crf" --depend "RAK439_CubeMX Configuration\stm32f4xx_hal.d" "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"

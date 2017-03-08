@@ -1,0 +1,4 @@
+--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I..\Inc 
+-I D:\MDK4.70A\ARM\RV31\INC 
+-I D:\MDK4.70A\ARM\CMSIS\Include 
+--list "startup_stm32f407xx.lst" --xref -o "RAK439_CubeMX Configuration\startup_stm32f407xx.o" --depend "RAK439_CubeMX Configuration\startup_stm32f407xx.d" "../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f407xx.s"

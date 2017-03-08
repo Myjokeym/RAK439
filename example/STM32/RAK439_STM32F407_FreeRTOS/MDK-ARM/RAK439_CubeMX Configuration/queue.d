@@ -1,0 +1,16 @@
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+RAK439_CubeMX Configuration\queue.o: D:\MDK4.70A\ARM\ARMCC\bin\..\include\stdlib.h
+RAK439_CubeMX Configuration\queue.o: D:\MDK4.70A\ARM\ARMCC\bin\..\include\string.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+RAK439_CubeMX Configuration\queue.o: D:\MDK4.70A\ARM\ARMCC\bin\..\include\stddef.h
+RAK439_CubeMX Configuration\queue.o: D:\MDK4.70A\ARM\ARMCC\bin\..\include\stdint.h
+RAK439_CubeMX Configuration\queue.o: ../Inc/FreeRTOSConfig.h
+RAK439_CubeMX Configuration\queue.o: ../Inc/mxconstants.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+RAK439_CubeMX Configuration\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

@@ -1,0 +1,14 @@
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+.\rak439_cubemx\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+.\rak439_cubemx\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\rak439_cubemx\heap_4.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rak439_cubemx\heap_4.o: ../Inc/FreeRTOSConfig.h
+.\rak439_cubemx\heap_4.o: ../Inc/mxconstants.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+.\rak439_cubemx\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

@@ -1,0 +1,57 @@
+*** Creating Trace Output File 'RAK439_CubeMX Configuration\RAK439_CubeVer.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"rak439_cubemx configuration\main.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_msp.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_it.o"'
+### List of Objects: adding '"rak439_cubemx configuration\freertos.o"'
+### List of Objects: adding '"rak439_cubemx configuration\spi.o"'
+### List of Objects: adding '"rak439_cubemx configuration\gpio.o"'
+### List of Objects: adding '"rak439_cubemx configuration\usart.o"'
+### List of Objects: adding '"rak439_cubemx configuration\system_stm32f4xx.o"'
+### List of Objects: adding '"rak439_cubemx configuration\startup_stm32f407xx.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_cortex.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_flash_ramfunc.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_spi.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_gpio.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_dma_ex.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_uart.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_flash.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_flash_ex.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_pwr_ex.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_rcc.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_dma.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_rcc_ex.o"'
+### List of Objects: adding '"rak439_cubemx configuration\stm32f4xx_hal_pwr.o"'
+### List of Objects: adding '"rak439_cubemx configuration\heap_4.o"'
+### List of Objects: adding '"rak439_cubemx configuration\timers.o"'
+### List of Objects: adding '"rak439_cubemx configuration\list.o"'
+### List of Objects: adding '"rak439_cubemx configuration\port.o"'
+### List of Objects: adding '"rak439_cubemx configuration\cmsis_os.o"'
+### List of Objects: adding '"rak439_cubemx configuration\croutine.o"'
+### List of Objects: adding '"rak439_cubemx configuration\event_groups.o"'
+### List of Objects: adding '"rak439_cubemx configuration\queue.o"'
+### List of Objects: adding '"rak439_cubemx configuration\tasks.o"'
+### List of Objects: adding '"rak439_cubemx configuration\bsp.o"'
+### List of Objects: adding '"rak439_cubemx configuration\rw_lib_platform_os.o"'
+### List of Objects: adding '"rak439_cubemx configuration\rw_os.o"'
+### List of Objects: adding '"..\RAKSDK\rw_lib\rak_wifi_lib_os_ARM_CM4_V1.0.6.14.lib"'
+### List of Objects: adding '"rak439_cubemx configuration\ap_sta.o"'
+### List of Objects: adding '"rak439_cubemx configuration\tcp_udp.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "rak439_cubemx configuration\main.o" "rak439_cubemx configuration\stm32f4xx_hal_msp.o" "rak439_cubemx configuration\stm32f4xx_it.o" "rak439_cubemx configuration\freertos.o" "rak439_cubemx configuration\spi.o" "rak439_cubemx configuration\gpio.o" "rak439_cubemx configuration\usart.o" "rak439_cubemx configuration\system_stm32f4xx.o" "rak439_cubemx configuration\startup_stm32f407xx.o" "rak439_cubemx configuration\stm32f4xx_hal_cortex.o" "rak439_cubemx configuration\stm32f4xx_hal_flash_ramfunc.o" "rak439_cubemx configuration\stm32f4xx_hal_spi.o" "rak439_cubemx configuration\stm32f4xx_hal_gpio.o" "rak439_cubemx configuration\stm32f4xx_hal_dma_ex.o" "rak439_cubemx configuration\stm32f4xx_hal_uart.o" "rak439_cubemx configuration\stm32f4xx_hal_flash.o" "rak439_cubemx configuration\stm32f4xx_hal_flash_ex.o" "rak439_cubemx configuration\stm32f4xx_hal.o" "rak439_cubemx configuration\stm32f4xx_hal_pwr_ex.o" "rak439_cubemx configuration\stm32f4xx_hal_rcc.o" "rak439_cubemx configuration\stm32f4xx_hal_dma.o" "rak439_cubemx configuration\stm32f4xx_hal_rcc_ex.o" "rak439_cubemx configuration\stm32f4xx_hal_pwr.o" "rak439_cubemx configuration\heap_4.o" "rak439_cubemx configuration\timers.o" "rak439_cubemx configuration\list.o" "rak439_cubemx configuration\port.o" "rak439_cubemx configuration\cmsis_os.o" "rak439_cubemx configuration\croutine.o" "rak439_cubemx configuration\event_groups.o" "rak439_cubemx configuration\queue.o" "rak439_cubemx configuration\tasks.o" "rak439_cubemx configuration\bsp.o" "rak439_cubemx configuration\rw_lib_platform_os.o" "rak439_cubemx configuration\rw_os.o" "C:\Users\LiuGeng\Desktop\RAK439 os TEST\RAK439_CubeMX\RAKSDK\rw_lib\rak_wifi_lib_os_ARM_CM4_V1.0.6.14.lib" "rak439_cubemx configuration\ap_sta.o" "rak439_cubemx configuration\tcp_udp.o" 
+--library_type=microlib --strict --scatter "RAK439_CubeMX Configuration\RAK439_CubeVer.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "RAK439_CubeVer.map" -o "RAK439_CubeMX Configuration\RAK439_CubeVer.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'RAK439_CubeMX Configuration\RAK439_CubeVer.axf'
+### ADS-LD Command File: 'RAK439_CubeMX Configuration\RAK439_CubeVer.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'RAK439_CubeMX Configuration\RAK439_CubeVer.lnp', Handle=0x00002D30
+### Writing '.lnp' file
+### ADS-LD Command file 'RAK439_CubeMX Configuration\RAK439_CubeVer.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

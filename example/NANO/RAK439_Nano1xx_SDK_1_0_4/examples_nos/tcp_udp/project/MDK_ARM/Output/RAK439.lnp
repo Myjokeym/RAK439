@@ -1,0 +1,21 @@
+--cpu Cortex-M0
+".\output\lib_mem.o"
+".\output\ap_sta.o"
+".\output\tcp_udp.o"
+".\output\tcpudp_test.o"
+".\output\bsp.o"
+".\output\nano1xx_fmc.o"
+".\output\nano1xx_gpio.o"
+".\output\nano1xx_pdma.o"
+".\output\nano1xx_spi.o"
+".\output\nano1xx_sys.o"
+".\output\nano1xx_timer.o"
+".\output\nano1xx_uart.o"
+".\output\startup_nano1xx.o"
+".\output\system_nano1xx.o"
+".\output\rw_lib_platform.o"
+"..\..\..\..\rw_lib\MDK_ARM\rak_wifi_nos_ARM_CM0.lib"
+--library_type=microlib --strict --scatter ".\Output\RAK439.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listing\RAK439.map" -o .\Output\RAK439.axf

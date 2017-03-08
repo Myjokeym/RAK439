@@ -1,0 +1,182 @@
+Dependencies for Project 'RAK439', Target 'RAK439': (DO NOT MODIFY !)
+F (..\..\..\..\common\include\rw_error.h)(0x557E8CAB)()
+F (..\..\..\..\common\include\rw_lib.h)(0x557E926B)()
+F (..\..\..\..\common\include\rw_socket.h)(0x5555CE13)()
+F (..\..\..\..\common\mem\lib_mem.c)(0x55814629)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\lib_mem.o --omf_browse .\output\lib_mem.crf --depend .\output\lib_mem.d)
+I (..\..\..\..\common\mem\lib_mem.h)(0x5538D2AD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+F (..\..\..\..\common\mem\lib_mem.h)(0x5538D2AD)()
+F (..\..\include\rw_app.h)(0x55838715)()
+F (..\..\src\ap_sta.c)(0x5583A746)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\ap_sta.o --omf_browse .\output\ap_sta.crf --depend .\output\ap_sta.d)
+I (..\..\include\rw_app.h)(0x55838715)
+I (..\..\..\..\platform\nano100\bsp\bsp.h)(0x556FBD19)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_uart.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_spi.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_gpio.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_pdma.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_fmc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_timer.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (..\..\..\..\common\include\rw_lib.h)(0x557E926B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\..\..\common\include\rw_socket.h)(0x5555CE13)
+I (..\..\..\..\common\include\rw_error.h)(0x557E8CAB)
+F (..\..\src\apsta_test.c)(0x55839BD0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\apsta_test.o --omf_browse .\output\apsta_test.crf --depend .\output\apsta_test.d)
+I (..\..\include\rw_app.h)(0x55838715)
+I (..\..\..\..\platform\nano100\bsp\bsp.h)(0x556FBD19)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_uart.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_spi.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_gpio.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_pdma.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_fmc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_timer.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (..\..\..\..\common\include\rw_lib.h)(0x557E926B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\..\..\common\include\rw_socket.h)(0x5555CE13)
+I (..\..\..\..\common\include\rw_error.h)(0x557E8CAB)
+F (..\..\..\..\platform\nano100\bsp\bsp.c)(0x557EAA87)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\bsp.o --omf_browse .\output\bsp.crf --depend .\output\bsp.d)
+I (..\..\..\..\platform\nano100\bsp\bsp.h)(0x556FBD19)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_uart.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_spi.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_gpio.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_pdma.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_fmc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_timer.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+F (..\..\..\..\platform\nano100\bsp\bsp.h)(0x556FBD19)()
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_fmc.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_fmc.o --omf_browse .\output\nano1xx_fmc.crf --depend .\output\nano1xx_fmc.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_fmc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_gpio.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_gpio.o --omf_browse .\output\nano1xx_gpio.crf --depend .\output\nano1xx_gpio.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_gpio.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_pdma.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_pdma.o --omf_browse .\output\nano1xx_pdma.crf --depend .\output\nano1xx_pdma.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_pdma.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_spi.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_spi.o --omf_browse .\output\nano1xx_spi.crf --depend .\output\nano1xx_spi.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_spi.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_sys.c)(0x550CDD57)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_sys.o --omf_browse .\output\nano1xx_sys.crf --depend .\output\nano1xx_sys.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_timer.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_timer.o --omf_browse .\output\nano1xx_timer.crf --depend .\output\nano1xx_timer.d)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+F (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_uart.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\nano1xx_uart.o --omf_browse .\output\nano1xx_uart.crf --depend .\output\nano1xx_uart.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_uart.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+F (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Source\ARM\startup_nano1xx.s)(0x534B7A4A)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include--list .\listing\startup_nano1xx.lst --xref -o .\output\startup_nano1xx.o --depend .\output\startup_nano1xx.d)
+F (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Source\system_nano1xx.c)(0x534B7A4A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\system_nano1xx.o --omf_browse .\output\system_nano1xx.crf --depend .\output\system_nano1xx.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+F (..\..\..\..\platform\nano100\rw_lib_platform.c)(0x5583A0C7)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\..\..\platform\nano100\libraries\CMSIS\Include -I..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include -I..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include -I..\..\..\..\platform\nano100\bsp -I..\..\..\..\common\include -I..\..\..\..\common\mem -I..\..\include --C99 --gnu-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-o .\output\rw_lib_platform.o --omf_browse .\output\rw_lib_platform.crf --depend .\output\rw_lib_platform.d)
+I (..\..\include\rw_app.h)(0x55838715)
+I (..\..\..\..\platform\nano100\bsp\bsp.h)(0x556FBD19)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h)(0x55093EA9)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_uart.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_spi.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_gpio.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_pdma.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_fmc.h)(0x534B7A4A)
+I (..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_timer.h)(0x534B7A4A)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (..\..\..\..\common\include\rw_lib.h)(0x557E926B)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\..\..\..\common\include\rw_socket.h)(0x5555CE13)
+I (..\..\..\..\common\include\rw_error.h)(0x557E8CAB)
+I (..\..\..\..\common\mem\lib_mem.h)(0x5538D2AD)
+F (..\..\..\..\rw_lib\MDK_ARM\rak_wifi_nos_ARM_CM0.lib)(0x5583A669)()

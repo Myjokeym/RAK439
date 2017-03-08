@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>675523079</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\common\include\rw_lib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\include\rw_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\include\rw_error.h</file>
+      <file>$PROJ_DIR$\..\..\src\ap_sta.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\mem\lib_mem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\common\mem\lib_mem.h</file>
+      <file>$PROJ_DIR$\..\..\src\easy_wps.c</file>
+      <file>$PROJ_DIR$\..\..\src\main.c</file>
+      <file>$PROJ_DIR$\..\..\include\rw_app.h</file>
+      <file>$PROJ_DIR$\..\..\src\tcp_udp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\bsp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\bsp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\iarread.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\iarwrite.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_fmc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\easywps_test.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\easywps_test.o</file>
+      <file>$PROJ_DIR$\..\..\src\easywps_test.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_pdma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_sys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Source\IAR\startup_nano1xx.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Source\system_nano1xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\rw_lib\EWARM\rak_wifi_lib_nos_ARM_CM0.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\rw_lib_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_pdma.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_fmc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_pdma.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_sys.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_sys.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iarread.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ap_sta.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rw_lib_platform.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ap_sta.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lib_mem.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_fmc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_spi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_fmc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_pdma.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_gpio.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Include\nano1xx_timer.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rw_lib_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\nano1xx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Include\system_nano1xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iarwrite.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\iarread.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_nano1xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nano1xx.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\bsp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_nano1xx.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_sys.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\iarwrite.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\RAK439.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\platform\nano100\NANO1xx.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcp_udp.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\nano1xx_uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tcp_udp.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\easy_wps.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\easy_wps.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\ap_sta.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\common\mem\lib_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 49 48 47 50 51 52 95 92 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 49 48 47 50 51 52 95 92 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\easy_wps.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\tcp_udp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\bsp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\iarread.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 40 48 47 50 51 52 95 92 11 75 71 36 63 68 60 70 76 37 69 64 72 28 29 30 73 53 55 54 56 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 40 48 47 50 51 52 95 92 11 75 71 36 63 68 60 70 76 37 69 64 72 28 29 30 73 53 55 54 56 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\bsp\iarwrite.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 40 48 47 50 51 52 95 92 11 75 71 36 63 68 60 70 76 37 69 64 72 28 29 30 73 53 55 54 56 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 40 48 47 50 51 52 95 92 11 75 71 36 63 68 60 70 76 37 69 64 72 28 29 30 73 53 55 54 56 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_fmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 30 75 71 36 63 68 60 70 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 30 75 71 36 63 68 60 70 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\easywps_test.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 28 75 71 36 63 68 60 70 76 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 28 75 71 36 63 68 60 70 76 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_pdma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 29 75 71 36 63 68 60 70 76 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 29 75 71 36 63 68 60 70 76 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 53 55 37 75 71 36 63 68 60 70 76 64 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 53 55 37 75 71 36 63 68 60 70 76 64 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_sys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 37 75 71 36 63 68 60 70 76 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 37 75 71 36 63 68 60 70 76 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\NANO1xx_Drivers\Source\nano1xx_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 75 71 36 63 68 60 70 76 69 37 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54 48 47 50 51 52 95 92 40 56 75 71 36 63 68 60 70 76 69 37 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Source\IAR\startup_nano1xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\libraries\Device\Nuvoton\NANO1xx\Source\system_nano1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 48 47 50 51 52 95 92 75 71 63 68 60 70 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36 48 47 50 51 52 95 92 75 71 63 68 60 70 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\platform\nano100\rw_lib_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 11 75 71 36 48 47 50 51 52 95 92 63 68 60 70 76 37 69 64 72 28 29 30 73 53 40 55 54 56 49 0 93 1 2 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 96 44 83 100 16 79 86 46 58 57 62 59 85 65 66 26 74 81 82 99 38 94 35 39</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
