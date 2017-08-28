@@ -17,7 +17,7 @@
 #define RW_DRIVER_TASK_PRIO  (configMAX_PRIORITIES - 3) 
 #define RW_DRIVER_TASK_STACK_SIZE (800>>2)
 
-//´´½¨ÈÎÎñ½Ó¿Ú
+//åˆ›å»ºä»»åŠ¡æ¥å£
 void* rw_creat_task(RW_OS_TASK_PTR p_task)
 {	
   osThreadId p_tcb;
@@ -26,7 +26,7 @@ void* rw_creat_task(RW_OS_TASK_PTR p_task)
   return p_tcb;
 }
 
-//É¾³ıÈÎÎñ½Ó¿Ú
+//åˆ é™¤ä»»åŠ¡æ¥å£
 int rw_del_task(void* p_tcb)
 {
   osThreadTerminate(p_tcb);
@@ -34,10 +34,10 @@ int rw_del_task(void* p_tcb)
   
 }
 
-//¶¨ÒåÒ»¸ö»¥³âËø
+//å®šä¹‰ä¸€ä¸ªäº’æ–¥é”
 static osMutexDef(mutex);
 
-//´´½¨Ò»¸ö»¥³âËø
+//åˆ›å»ºä¸€ä¸ªäº’æ–¥é”
 void* rw_creat_mutex(void)
 {
   osMutexId p_mutex;
@@ -45,14 +45,14 @@ void* rw_creat_mutex(void)
   return (void *)p_mutex;	
 }
 
-//ÊÍ·ÅÒ»¸ö»¥³âËø
+//é‡Šæ”¾ä¸€ä¸ªäº’æ–¥é”
 int rw_del_mutex(void* p_mutex)
 {
   osMutexDelete(p_mutex);
   return RW_OS_OK;
 }
 
-//»ñÈ¡Ëø
+//è·å–é”
 int rw_lock_mutex(void* p_mutex, uint32_t timeout)
 {
   if (timeout ==0) {  //wait forever
@@ -62,17 +62,17 @@ int rw_lock_mutex(void* p_mutex, uint32_t timeout)
   return RW_OS_OK;
 }
 
-//½âËø
+//è§£é”
 int rw_unlock_mutex(void* p_mutex)
 {
   osMutexRelease(p_mutex);
   return RW_OS_OK;
 }
 
-//¶¨ÒåÒ»¸öĞÅºÅÁ¿
+//å®šä¹‰ä¸€ä¸ªä¿¡å·é‡
 static osSemaphoreDef(sem);
 
-//´´½¨Ò»¸öĞÅºÅÁ¿
+//åˆ›å»ºä¸€ä¸ªä¿¡å·é‡
 void* rw_creat_sem(void)
 {
   osSemaphoreId p_sem;
@@ -80,22 +80,40 @@ void* rw_creat_sem(void)
   return p_sem;
 }
 
-//É¾³ıÒ»¸öĞÅºÅÁ¿
+//åˆ é™¤ä¸€ä¸ªä¿¡å·é‡
 int rw_del_sem(void* p_sem)
 {
   osSemaphoreDelete(p_sem);
   return RW_OS_OK;
 }
 
-//·¢ËÍÒ»¸öĞÅºÅÁ¿
+//å‘é€ä¸€ä¸ªä¿¡å·é‡
 int rw_post_sem(void* p_sem)
 {
   osSemaphoreRelease(p_sem);
   return RW_OS_OK;
 }
 
+int rw_post_drv_sem(void* p_sem)
+{
+    portBASE_TYPE taskWoken = pdFALSE;
 
-//µÈ´ıÒ»¸öĞÅºÅÁ¿
+    if(p_sem == NULL) {
+        return RW_OS_ERROR;
+    }
+
+    if (xSemaphoreGiveFromISR(p_sem, &taskWoken) != pdPASS) {
+        return RW_OS_ERROR;
+    }
+
+    if(taskWoken == pdTRUE) {
+        portEND_SWITCHING_ISR(taskWoken);
+
+    }
+    return RW_OS_OK;
+}
+
+//ç­‰å¾…ä¸€ä¸ªä¿¡å·é‡
 int rw_pend_sem(void* p_sem, uint32_t timeout)
 {
    int32_t oserr;
@@ -112,6 +130,15 @@ int rw_pend_sem(void* p_sem, uint32_t timeout)
     return RW_OS_ERROR;
 }
 
+void rw_enter_critical()
+{
+		portENTER_CRITICAL();
+}
+
+void rw_exit_critical()
+{
+		portEXIT_CRITICAL();
+}
 
 
 
