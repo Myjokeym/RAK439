@@ -56,16 +56,6 @@ int RAK_TcpClient(uint16_t destPort, int destIp)
 		return RW_ERR;
 	};
 
-	struct linger set_linger = {1, 0};
-  
-  DPRINTF("setsockopt!\r\n");
-	ret = setsockopt(sockfd, IPPROTO_IP, SO_LINGER, (const char *)&set_linger, sizeof(struct linger));
-	if (ret < RW_OK )
-	{
-		DPRINTF("setsockopt failed\r\n");
-		close(sockfd);
-		return RW_ERR;
-	}   
 
 	srand((int)get_stamp());
 	/*port : 1024 - 32768 */
@@ -114,7 +104,7 @@ void RAK_TcpClient_EventHandle(void *p_arg)
 	while(1)
 	{      
 reconnect: 
-		//连不上WIFI 或者分配不到ip地址
+		//杩炰笉涓奧IFI 鎴栬�呭垎閰嶄笉鍒癷p鍦板潃
 		if(app_demo_ctx.rw_connect_status != STATUS_OK && app_demo_ctx.rw_ipquery_status != STATUS_OK) 
 		{
 			rw_sysSleep(100);
