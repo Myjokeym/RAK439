@@ -158,12 +158,12 @@ void wifi_init_params(rw_DriverParams_t* params)
     params->app_cb.scan_cb = scan_callback;
     params->app_cb.easy_wps_cb = wps_easy_callback;
 
-    params->spi_int_enable =false;
+    params->spi_int_enable =true;
 
     params->rx_queue_num = 5;
-	  params->tx_queue_num = 5;
+    params->tx_queue_num = 5;
 		
-	  params->tx_max_len = MAX_SEND_PACKET_LEN;
+    params->tx_max_len = MAX_SEND_PACKET_LEN;
     
     params->scan_max_num = 10;
     
@@ -217,7 +217,7 @@ static void _power_up_down(uint8_t status)
 }
 
 
-/*调用HAL库的SPI接口实现的_spi_io_buffer*/
+/*碌梅脫脙HAL驴芒碌脛SPI陆脫驴脷脢碌脧脰碌脛_spi_io_buffer*/
 
 static void _spi_io_buffer(uint8_t* write, uint8_t* read, uint16_t len)
 {
